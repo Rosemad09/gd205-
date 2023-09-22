@@ -5,13 +5,17 @@ using UnityEngine;
 public class move : MonoBehaviour
 {
     public GameObject hazard;
-    public GameObject[] hazards; 
+    public GameObject[] hazards;
+    public AudioClip oof;
+    AudioSource player; 
+    Vector3 startPos;
 
 
     // Start is called before the first frame update
     void Start()
     {
-
+        startPos = transform.position;
+        player= GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -54,7 +58,9 @@ public class move : MonoBehaviour
     for(int i=0; i < hazards.Length; i++){
 if (transform.position == hazards[i].transform.position){
         Debug.Log("you are hazards ): hehe");
-        Destroy(gameObject);
+        //Destroy(gameObject);
+     transform.position = startPos;
+     player.PlayOneShot(oof, .75f);
     }
     } 
     
