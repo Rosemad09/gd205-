@@ -6,6 +6,7 @@ public class alien : MonoBehaviour
 {
 Rigidbody rb;
     public float forceMultiplier = 5f;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -31,7 +32,7 @@ Rigidbody rb;
         if (Input.GetKey(KeyCode.LeftShift)){
             rb.velocity *= 0.95f;
         }
-         if (Input.GetKey(KeyCode.Space)){
+         if (Input.GetKey(KeyCode.E)){
             rb.AddForce(transform.up * forceMultiplier);
         }
         if (Input.GetKey(KeyCode.Q))
