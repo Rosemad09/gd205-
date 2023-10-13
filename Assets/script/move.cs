@@ -23,12 +23,12 @@ public class move : MonoBehaviour
     {
          if (Input.GetKeyDown(KeyCode.W)){
         Debug.Log("W key pressed");
-        transform.position += Vector3.forward;
+        transform.position += Vector3.back;
 
         }
         if (Input.GetKeyDown(KeyCode.S)){
         Debug.Log("s key pressed");
-        transform.position += Vector3.back;
+        transform.position += Vector3.forward;
 
         }
         if (Input.GetKeyDown(KeyCode.A)){
