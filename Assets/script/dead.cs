@@ -14,9 +14,7 @@ public class dead : MonoBehaviour
     }
     void die()
     {
-        GetComponent<MeshRenderer>().enabled = false;
-        GetComponent<Rigidbody>().isKinematic = true;
-        GetComponent<alien>().enabled = false;
+       
         ReloadLevel();
 
 
