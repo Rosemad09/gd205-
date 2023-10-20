@@ -15,6 +15,6 @@ public class follow : MonoBehaviour
     void Update()
     {
         transform.position =
-             Vector3.MoveTowards(this.transform.position, targetobj.position, 5 * Time.deltaTime);
+             Vector3.MoveTowards(this.transform.position, targetobj.position, 8 * Time.deltaTime);
     }
 }
