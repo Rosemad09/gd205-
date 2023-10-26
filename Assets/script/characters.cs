@@ -3,14 +3,19 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class characters : MonoBehaviour
+
+
 {
     CharacterController controller;
     Animator anim; 
+    public float speed = 10f;
+
     // Start is called before the first frame update
     void Start()
     {
         controller = GetComponent<CharacterController>();
         anim = GetComponent<Animator>();
+       
 
     }
 
