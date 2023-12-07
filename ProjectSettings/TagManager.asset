@@ -5,6 +5,15 @@ TagManager:
   serializedVersion: 2
   tags:
   - bad
+  - me
+  - door open?
+  - scorep
+  - points
+  - Erong
+  - Kira
+  - Ian
+  - New tag
+  - Corn
   layers:
   - Default
   - TransparentFX
@@ -12,7 +21,7 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - Pickup
   - 
   - 
   - 
