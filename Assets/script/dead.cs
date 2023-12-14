@@ -7,7 +7,7 @@ public class dead : MonoBehaviour
 {
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.CompareTag("bad"))
+        if (collision.gameObject.CompareTag("bad"))//if the player collides with the tag,it reloads the level.
         {
             die();
         }
@@ -21,6 +21,6 @@ public class dead : MonoBehaviour
     }
     void ReloadLevel()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);//resets the stage 
     }
 }

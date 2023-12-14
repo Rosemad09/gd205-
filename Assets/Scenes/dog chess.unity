@@ -524,8 +524,8 @@ GameObject:
   - component: {fileID: 115836032}
   - component: {fileID: 115836031}
   m_Layer: 0
-  m_Name: Cube (22)
-  m_TagString: Untagged
+  m_Name: bad 3
+  m_TagString: bad
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -912,8 +912,8 @@ GameObject:
   - component: {fileID: 526695176}
   - component: {fileID: 526695175}
   m_Layer: 0
-  m_Name: Cube (9)
-  m_TagString: Untagged
+  m_Name: bad 1
+  m_TagString: bad
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1009,8 +1009,8 @@ GameObject:
   - component: {fileID: 544068515}
   - component: {fileID: 544068514}
   m_Layer: 0
-  m_Name: Cube (24)
-  m_TagString: Untagged
+  m_Name: bad 2
+  m_TagString: bad
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2157,8 +2157,8 @@ GameObject:
   - component: {fileID: 993591721}
   - component: {fileID: 993591720}
   m_Layer: 0
-  m_Name: Cube (5)
-  m_TagString: Untagged
+  m_Name: bad 5
+  m_TagString: bad
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2545,8 +2545,8 @@ GameObject:
   - component: {fileID: 1155106648}
   - component: {fileID: 1155106647}
   m_Layer: 0
-  m_Name: Cube (11)
-  m_TagString: Untagged
+  m_Name: bad 4
+  m_TagString: bad
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3807,12 +3807,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33e5b1fb25aa31e4b83a82b2b6f00057, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hazard: {fileID: 0}
+  hazard: {fileID: 544068513}
   hazards:
   - {fileID: 993591719}
   - {fileID: 526695174}
   - {fileID: 1155106646}
-  - {fileID: 0}
+  - {fileID: 544068513}
+  - {fileID: 115836030}
   oof: {fileID: 8300000, guid: 9075cc78741c42a45b62d7f742714622, type: 3}
 --- !u!82 &1600307487
 AudioSource:

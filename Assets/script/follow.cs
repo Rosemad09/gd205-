@@ -14,7 +14,7 @@ public class follow : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position =
-             Vector3.MoveTowards(this.transform.position, targetobj.position, 8 * Time.deltaTime);
+        transform.position = 
+     Vector3.MoveTowards(this.transform.position, targetobj.position, 8 * Time.deltaTime);
     }
 }

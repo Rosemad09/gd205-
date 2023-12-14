@@ -11,7 +11,7 @@ public class scorep : MonoBehaviour
 
     void Start()
     {
-        int score = PlayerPrefs.GetInt("Score", 0);
+        int score = PlayerPrefs.GetInt("Score", 0);//sets the score value as 0.
         scorecount = score;
 
         scoretext.text = "score:" + Mathf.Round(scorecount);
@@ -20,7 +20,7 @@ public class scorep : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        scoretext.text = "score:" + Mathf.Round(scorecount);
+        scoretext.text = "score:" + Mathf.Round(scorecount);//the score counter 
     }
 
 }

@@ -11,7 +11,7 @@ public class CornPoints : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag("Corn"))
+        if (other.gameObject.CompareTag("Corn"))//if the object is tagged as Corn, and it interacts with this code,it will destroy the item and give the score counter 1 point.
         {
             source.PlayOneShot(PointUp);
             Destroy(other.gameObject, .3f);

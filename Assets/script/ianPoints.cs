@@ -11,7 +11,7 @@ public class ianPoints : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag("Ian"))
+        if (other.gameObject.CompareTag("Ian"))//if the object is tagged as Ian, and it interacts with this code,it will destroy the item and give the score counter 1 point.
         {
             source.PlayOneShot(PointUp);
             Destroy(other.gameObject, .3f);

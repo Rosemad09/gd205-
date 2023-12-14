@@ -7,7 +7,7 @@ public class howtoscreen : MonoBehaviour
 {
   public void begin()
   {
-		SceneManager.LoadScene("Final project");
+		SceneManager.LoadScene("Final project");//takes u into the gameplay.
   }
 
 

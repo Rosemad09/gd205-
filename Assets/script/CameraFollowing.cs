@@ -14,6 +14,6 @@ public Transform cameraPosition;
     // Update is called once per frame
     private void Update()
     {
-        transform.position = cameraPosition.position;
+        transform.position = cameraPosition.position;//where the camera will be positioned to 
     }
 }
