@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class PhysicsPickup : MonoBehaviour
 {
+    public AudioSource source;
+    public AudioClip clip;
+
 
     [SerializeField] private LayerMask PickupMask;
     [SerializeField] private Camera PlayerCamera;
@@ -36,6 +39,8 @@ public class PhysicsPickup : MonoBehaviour
             {
                 CurrentObject = HitInfo.rigidbody;
                 CurrentObject.useGravity = false;
+                source.PlayOneShot(clip);
+
             }
         }
     }
